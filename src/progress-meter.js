@@ -2,11 +2,11 @@ import React from 'react';
 
 const Meter = function (props) {
     const {
-        percent = 0.,         // number: 0 - 1, inclusive. Fill %
-        width = 200,         // the width of our meter
-        height = 6,         // the height of our meter
-        rounded = true,      // if true, use rounded corners
-        color = "#0078bc",   // the fill color
+        percent = 0.,        
+        width = 200,         
+        height = 6,        
+        rounded = true,     
+        color = "#0078bc",  
         animate = true,
         label,
         labelSize = 12
@@ -27,5 +27,4 @@ const Meter = function (props) {
         </div>
     );
 }
-// module.exports = Meter;
 export default Meter;
