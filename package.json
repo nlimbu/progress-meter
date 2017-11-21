@@ -1,0 +1,37 @@
+{
+  "name": "progress-meter",
+  "version": "1.0.0",
+  "description": "A simple progress meter using <svg> element",
+  "main": "lib/progress-meter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors --p",
+    "transpile": "node_modules/.bin/babel ./src/progress-meter.js --presets babel-preset-es2015 --out-file lib/progress-meter.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softCompound/progress-meter.git"
+  },
+  "keywords": [
+    "progress",
+    "meter"
+  ],
+  "author": "Nagendra Limbu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/softCompound/progress-meter/issues"
+  },
+  "homepage": "https://github.com/softCompound/progress-meter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  }
+}
