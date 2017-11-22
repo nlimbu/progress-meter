@@ -1,6 +1,6 @@
 # progress-meter
 
-#### This is a simple progress meter for react applications using <svg> elements that can be configured through props.
+#### This is a simple progress meter for react applications using `<svg>` element that can be configured through props.
 
 <a href="https://imgflip.com/gif/1zskh3"><img src="https://i.imgflip.com/1zskh3.gif" title="made at imgflip.com"/></a>
 
@@ -24,3 +24,14 @@ import Meter from 'progress-meter';
 />
 ```
 
+## Props
+
+Props | Default Values | Behaviour
+----- | -------------- | --------
+width|200| The width of the meter
+height|6| Meter height.
+percent|0|Takes value from 0 - 1 and times with the width of the component to display the meter progress.
+rounded|true|Changes the border radius of the component.
+color|#0078bc|can be updated to show different state.
+labelSize|12|
+label|null|null
