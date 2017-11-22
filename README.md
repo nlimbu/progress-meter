@@ -33,5 +33,7 @@ height|6| Meter height.
 percent|0|Takes value from 0 - 1 and times with the width of the component to display the meter progress.
 rounded|true|Changes the border radius of the component.
 color|#0078bc|can be updated to show different state.
+animate|true|provides smooth animation to the progress meter.
 labelSize|12|
 label|null|null
+
